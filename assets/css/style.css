@@ -1,0 +1,66 @@
+.chatIcon {
+    background-color: #2d3342;
+    color: #ffffff;
+    width: 3.3rem !important;
+    height: 3.3rem !important;
+    border-radius: 50%;
+    padding: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    z-index: 999;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#chatBox {
+    background-color: #f5f2f2;
+    color: #2d3342;
+    width: 20rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+    z-index: 999;
+    transition: 0.5s ease;
+    display: none;
+}
+
+#chatCloseIcon {
+    display: none;
+}
+
+.showIcon {
+    display: block;
+}
+
+.hideIcon {
+    display: none;
+}
+
+#chatBotBody {
+    overflow-y: scroll;
+    height: 27rem;
+    padding: 0.5rem;
+}
+
+.botMessage {
+    background-color: #ffffff;
+    color: #2d3342;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0;
+    margin: 0.5rem;
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+}
+
+.userMessage {
+    background-color: #2d3342;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0.5rem;
+    display: inline-block;
+    margin: 0.5rem;
+    text-align: right;
+    width: 80%;
+}
